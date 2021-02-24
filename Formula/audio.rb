@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 class Audio < Formula
-  desc '❄️ Freeze and 🔥 thaw.'
+  desc '🔊 Audio scripts.'
   homepage 'https://github.com/lgarron/scripts'
   head 'https://github.com/lgarron/scripts.git'
 
