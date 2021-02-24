@@ -1,6 +1,6 @@
-# Homebrew Tap for Cubing
+# lgarron's Homebrew Tap
 
-This [Homebrew](https://brew.sh/) [tap](https://docs.brew.sh/Taps) is meant to make it easy to install some of my software..
+This [Homebrew](https://brew.sh/) [tap](https://docs.brew.sh/Taps) is meant to make it easy to install some of my software.
 
 Example usage:
 
@@ -8,4 +8,8 @@ Example usage:
     # https://brew.sh/
 
     brew tap lgarron/lgarron
-    brew install lgarron/lgarron/git-freeze
+    brew install --HEAD lgarron/lgarron/git-freeze
+
+## Disclaimer
+
+I'm using this for my own convenience. Please don't try to use it unless you know exactly how Homebrew taps work.
