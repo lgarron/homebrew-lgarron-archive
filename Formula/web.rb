@@ -7,6 +7,7 @@ class Web < Formula
 
   def install
     bin.install 'web/chrometab'
+    bin.install 'web/safaritab'
     bin.install 'web/weblocify'
   end
 
