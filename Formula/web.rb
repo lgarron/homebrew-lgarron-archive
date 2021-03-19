@@ -3,7 +3,7 @@
 class Web < Formula
   desc '🌐 Web scripts'
   homepage 'https://github.com/lgarron/scripts'
-  head 'https://github.com/lgarron/scripts.git'
+  head 'https://github.com/lgarron/scripts.git', :branch => 'main'
 
   def install
     bin.install 'web/chrometab'
