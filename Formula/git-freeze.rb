@@ -8,6 +8,7 @@ class GitFreeze < Formula
   def install
     bin.install 'bin/git-freeze'
     bin.install 'bin/git-thaw'
+    bin.install 'bin/git-abandon'
   end
 
   test do
