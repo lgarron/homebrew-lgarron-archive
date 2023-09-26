@@ -6,7 +6,7 @@ class Gclone < Formula
   head 'https://github.com/lgarron/scripts.git', :branch => 'main'
 
   def install
-    bin.install 'git/gclone'
+    bin.install 'git/gclone.ts' => 'gclone'
   end
 
   test do
