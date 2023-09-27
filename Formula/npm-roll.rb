@@ -6,7 +6,7 @@ class NpmRoll < Formula
   head "https://github.com/lgarron/scripts.git", :branch => "main"
 
   def install
-    bin.install "web/npm-roll"
+    bin.install "web/npm-roll.fish" => "npm-roll"
   end
 
   test do

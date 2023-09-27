@@ -6,6 +6,6 @@ class Xdig < Formula
   head "https://github.com/lgarron/scripts.git", :branch => "main"
 
   def install
-    bin.install "system/xdig"
+    bin.install "system/xdig.bash" => "xdig"
   end
 end

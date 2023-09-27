@@ -6,7 +6,7 @@ class NodeCrunchule < Formula
   head "https://github.com/lgarron/scripts.git", :branch => "main"
 
   def install
-    bin.install "git/node_crunchule"
+    bin.install "git/node_crunchule.fish" => "node_crunchule"
   end
 
   test do

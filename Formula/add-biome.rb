@@ -6,7 +6,7 @@ class AddBiome < Formula
   head "https://github.com/lgarron/scripts.git", :branch => "main"
 
   def install
-    bin.install "web/add-biome" 
+    bin.install "web/add-biome.fish" => "add-biome"
   end
 
   test do

@@ -6,7 +6,7 @@ class GitDistance < Formula
   head "https://github.com/lgarron/scripts.git", :branch => "main"
 
   def install
-    bin.install "git/git-distance"
+    bin.install "git/git-distance.fish" => "git-distance"
   end
 
   test do

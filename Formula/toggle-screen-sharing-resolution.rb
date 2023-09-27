@@ -8,6 +8,6 @@ class ToggleScreenSharingResolution < Formula
   depends_on "fish"
 
   def install
-    bin.install "system/toggle-screen-sharing-resolution"
+    bin.install "system/toggle-screen-sharing-resolution.fish" => "toggle-screen-sharing-resolution"
   end
 end

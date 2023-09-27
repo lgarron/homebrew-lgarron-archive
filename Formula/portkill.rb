@@ -6,7 +6,7 @@ class Portkill < Formula
   head "https://github.com/lgarron/scripts.git", :branch => "main"
 
   def install
-    bin.install "system/portkill"
+    bin.install "system/portkill.bash" => "portkill"
   end
 
   test do

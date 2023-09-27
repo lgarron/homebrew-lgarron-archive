@@ -6,8 +6,8 @@ class Pack < Formula
   head "https://github.com/lgarron/scripts.git", :branch => "main"
 
   def install
-    bin.install "pack/pack-pov"
-    bin.install "pack/pack-logs"
+    bin.install "pack/pack-pov.fish" => "pack-pov"
+    bin.install "pack/pack-logs.fish" => "pack-logs"
   end
 
   test do

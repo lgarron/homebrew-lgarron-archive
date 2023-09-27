@@ -6,9 +6,9 @@ class Web < Formula
   head "https://github.com/lgarron/scripts.git", :branch => "main"
 
   def install
-    bin.install "web/chrometab"
-    bin.install "web/safaritab"
-    bin.install "web/weblocify"
+    bin.install "web/chrometab.bash" => "chrometab"
+    bin.install "web/safaritab.bash" => "safaritab"
+    bin.install "web/weblocify.bash" => "weblocify"
   end
 
   test do

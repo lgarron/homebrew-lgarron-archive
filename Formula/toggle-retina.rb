@@ -8,6 +8,6 @@ class ToggleRetina < Formula
   depends_on "fish"
 
   def install
-    bin.install "system/toggle-retina"
+    bin.install "system/toggle-retina.fish" => "toggle-retina"
   end
 end

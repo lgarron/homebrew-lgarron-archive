@@ -6,8 +6,8 @@ class MaestralDbx < Formula
   head "https://github.com/lgarron/scripts.git", :branch => "main"
 
   def install
-    bin.install "maestral/dbx-link"
-    bin.install "maestral/dbx-web"
+    bin.install "maestral/dbx-link.fish" => "dbx-link"
+    bin.install "maestral/dbx-web.fish" => "dbx-web"
   end
 
   test do

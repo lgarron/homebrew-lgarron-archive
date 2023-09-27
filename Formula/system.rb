@@ -6,8 +6,8 @@ class System < Formula
   head "https://github.com/lgarron/scripts.git", :branch => "main"
 
   def install
-    bin.install "system/map"
-    bin.install "system/unixtime"
+    bin.install "system/map.bash" => "map"
+    bin.install "system/unixtime.bash" => "unixtime"
   end
 
   test do

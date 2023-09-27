@@ -8,6 +8,6 @@ class Ts < Formula
   # TODO: declare a dep on `node` and `fish`?
 
   def install
-    bin.install "web/ts"
+    bin.install "web/ts.fish" => "ts"
   end
 end

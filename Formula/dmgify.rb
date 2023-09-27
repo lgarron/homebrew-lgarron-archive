@@ -6,6 +6,6 @@ class Dmgify < Formula
   head "https://github.com/lgarron/scripts.git", :branch => "main"
 
   def install
-    bin.install "storage/dmgify"
+    bin.install "storage/dmgify.fish" => "dmgify"
   end
 end
