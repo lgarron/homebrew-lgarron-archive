@@ -8,8 +8,4 @@ class NodeCrunchule < Formula
   def install
     bin.install "git/node_crunchule.fish" => "node_crunchule"
   end
-
-  test do
-    system "false"
-  end
 end

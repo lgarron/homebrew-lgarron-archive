@@ -8,8 +8,4 @@ class Portkill < Formula
   def install
     bin.install "system/portkill.bash" => "portkill"
   end
-
-  test do
-    system "false"
-  end
 end

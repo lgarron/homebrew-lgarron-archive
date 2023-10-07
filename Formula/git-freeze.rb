@@ -10,8 +10,4 @@ class GitFreeze < Formula
     bin.install "bin/git-thaw"
     bin.install "bin/git-abandon"
   end
-
-  test do
-    system "false"
-  end
 end

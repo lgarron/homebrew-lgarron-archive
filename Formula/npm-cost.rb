@@ -8,8 +8,4 @@ class NpmCost < Formula
   def install
     bin.install "web/npm-cost.fish" => "npm-cost"
   end
-
-  test do
-    system "false"
-  end
 end

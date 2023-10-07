@@ -10,8 +10,4 @@ class Web < Formula
     bin.install "web/safaritab.bash" => "safaritab"
     bin.install "web/weblocify.bash" => "weblocify"
   end
-
-  test do
-    system "false"
-  end
 end

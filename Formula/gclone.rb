@@ -8,8 +8,4 @@ class Gclone < Formula
   def install
     bin.install "git/gclone.ts" => "gclone"
   end
-
-  test do
-    system "false"
-  end
 end

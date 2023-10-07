@@ -9,8 +9,4 @@ class System < Formula
     bin.install "system/map.bash" => "map"
     bin.install "system/unixtime.bash" => "unixtime"
   end
-
-  test do
-    system "false"
-  end
 end

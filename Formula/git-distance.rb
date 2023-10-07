@@ -8,8 +8,4 @@ class GitDistance < Formula
   def install
     bin.install "git/git-distance.fish" => "git-distance"
   end
-
-  test do
-    system "false"
-  end
 end

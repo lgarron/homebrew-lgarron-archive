@@ -8,8 +8,4 @@ class AddBiome < Formula
   def install
     bin.install "web/add-biome.fish" => "add-biome"
   end
-
-  test do
-    system "false"
-  end
 end

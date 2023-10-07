@@ -8,8 +8,4 @@ class NpmRoll < Formula
   def install
     bin.install "web/npm-roll.fish" => "npm-roll"
   end
-
-  test do
-    system "false"
-  end
 end

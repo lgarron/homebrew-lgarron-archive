@@ -9,8 +9,4 @@ class Pack < Formula
     bin.install "pack/pack-pov.fish" => "pack-pov"
     bin.install "pack/pack-logs.fish" => "pack-logs"
   end
-
-  test do
-    system "false"
-  end
 end

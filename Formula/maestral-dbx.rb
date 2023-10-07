@@ -9,8 +9,4 @@ class MaestralDbx < Formula
     bin.install "maestral/dbx-link.fish" => "dbx-link"
     bin.install "maestral/dbx-web.fish" => "dbx-web"
   end
-
-  test do
-    system "false"
-  end
 end

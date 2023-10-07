@@ -10,8 +10,4 @@ class Audio < Formula
     bin.install "audio/wavify.bash" => "wavify"
     bin.install "audio/flacify.bash" => "flacify"
   end
-
-  test do
-    system "false"
-  end
 end

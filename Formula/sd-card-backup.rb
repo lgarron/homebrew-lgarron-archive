@@ -10,8 +10,4 @@ class SdCardBackup < Formula
   def install
     system "go", "build", *std_go_args, "./cmd/sd-card-backup"
   end
-
-  test do
-    system "false"
-  end
 end
