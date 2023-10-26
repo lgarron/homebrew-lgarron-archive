@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 class Mak < Formula
-  desc "🛠️ make, but mak it faster"
+  desc "🛠️ make, but mak it shorter"
   homepage "https://github.com/lgarron/mak"
   head "https://github.com/lgarron/mak.git", :branch => "main"
 
