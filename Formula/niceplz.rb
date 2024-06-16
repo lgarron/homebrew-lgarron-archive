@@ -9,5 +9,6 @@ class Niceplz < Formula
     bin.install "system/pnice.fish" => "pnice"
     bin.install "system/pnicest.fish" => "pnicest"
     bin.install "system/niceplz.ts" => "niceplz"
+    bin.install "sudo/niceplz-sudo.fish" => "niceplz-sudo"
   end
 end
