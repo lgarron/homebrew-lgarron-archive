@@ -5,6 +5,7 @@ class OpenscadAuto < Formula
   homepage "https://github.com/lgarron/scripts"
   head "https://github.com/lgarron/scripts.git", :branch => "main"
 
+  # We'd add `openscad` as a dependency, but that formula is a cask because of the associated app and casks can't be used as dependencies. :-/
   depends_on "terminal-notifier"
 
   def install
