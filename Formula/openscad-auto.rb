@@ -11,9 +11,20 @@ class OpenscadAuto < Formula
   # TODO: figure out how to depend on Rust nightly.
   # depends_on "rust"
 
+  def caveats
+    <<~EOS
+1. Make sure to run:
+
+    rustup toolchain install nightly
+
+2. Completions cannot currently be automatically installed. Run:
+
+      openscad-auto --completions fish > ~/.config/fish/completions/openscad-auto.fish"
+EOS
+  end
+
   def install
     bin.install "app-tools/openscad-auto.rs" => "openscad-auto"
-
     # TODO
     # generate_completions_from_executable(bin/"openscad-auto", "--completions")
     # generate_completions_from_executable(system "cargo", "+nightly", "-Zscript", bin/"openscad-auto", "--completions")
