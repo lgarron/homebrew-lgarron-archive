@@ -7,8 +7,9 @@ class Tagpush < Formula
 
   depends_on "lgarron/lgarron/rmtag"
   depends_on "lgarron/lgarron/version"
+  depends_on "oven-sh/bun/bun"
 
   def install
-    bin.install "git/tagpush.fish" => "tagpush"
+    bin.install "git/tagpush.ts" => "tagpush"
   end
 end
